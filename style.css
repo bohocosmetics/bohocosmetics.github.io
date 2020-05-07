@@ -10,6 +10,10 @@ a {
     color:#6b7936;
 }
 
+p {
+    color:#6b7936;
+    text-align:center;
+}
 .navigace {
     position: relative;
 }
@@ -128,3 +132,18 @@ nav a {
     width:247px;
     height:87px;
 }
+
+.sortiment a {
+    text-decoration: none;
+}
+
+.sortiment ul {
+    display:flex;
+    color:#6b7936;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+
+}
+
