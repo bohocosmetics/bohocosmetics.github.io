@@ -1,0 +1,130 @@
+body {
+    width:960px;
+    margin:O auto;
+    margin-left:130px;
+    
+}
+
+a {
+    text-decoration: none;
+    color:#6b7936;
+}
+
+.navigace {
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    right:0px;
+    
+}
+
+.banner img {
+    margin-top: 30px;
+}
+
+.vyhledavani {
+    position: relative;
+    display:flex;
+}
+
+.vyhledavani form {
+    bottom:20px;
+    right:0px;
+    position: absolute;  
+}
+
+.ikony img {
+    display:flex;
+    width:30px;
+    margin-left:20px;
+    margin-bottom:10px;
+}
+
+h2 {
+    text-align: center;
+    color:#6b7936;
+}
+
+footer {
+    text-align: center;
+    color:#6b7936;
+}
+
+.fotogalerie {
+    display:flex;
+
+}
+.fotogalerie img {
+    width:30%;
+    margin:20px;
+}
+nav a {
+    padding:10px;
+}
+
+.ikony ul {
+    text-align: center;
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+
+
+}
+
+.ikonky ul {
+    text-align:right;
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+}
+
+.ikonky img {
+    display:flex;
+    width:30px;
+    margin-left:20px;
+    margin-bottom:10px;
+}
+.vpravo {
+    position: relative;
+}
+.ikonky {
+    display:flex;
+    position:absolute;
+    right:0;
+}
+
+.ikonky a:hover {
+    color:#6b7936;
+}
+
+.formular form{
+    font-size:15px;
+    width:40%;
+    display:flex;
+    flex-direction:column;
+}
+.formular {
+    margin-left:370px;
+}
+
+.formular form input[type="text"],
+.formular form input[type="e-mail"] {
+    width:100%;
+    margin-bottom:10px;
+}
+.formular form input[type="submit"] {
+    background-color: #6b7936;
+    color:white;
+    border:1px solid #6b7936;
+    margin-top:10px;
+    height:30px;
+    width:250px;
+
+}
+
+.formular form textarea {
+    width:247px;
+    height:87px;
+}
