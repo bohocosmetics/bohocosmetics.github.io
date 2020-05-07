@@ -133,17 +133,20 @@ nav a {
     height:87px;
 }
 
-.sortiment a {
-    text-decoration: none;
-}
+
 
 .sortiment ul {
     display:flex;
     color:#6b7936;
-    text-align: center;
     font-weight: bold;
     margin-bottom: 20px;
+    list-style-type: none;
 
 
 }
 
+.sortiment li a{
+    font-size: 12px;
+    
+
+}
